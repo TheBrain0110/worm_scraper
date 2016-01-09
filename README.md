@@ -24,13 +24,9 @@ Download the ebook or run the scraper yourself.
   ```command
   gem install nokogiri
   ```
-3. Run the script and output into html file
+3. Run the shell script, with the option of choice. -h shows options, -w creates the worm ebook, -p creates pact, and -t creates twig; -a creates all three.
 
   ```command
-  ruby worm_scraper.rb > worm.html
-  ```
-4. Convert (requires Calibre CLI)
-
-  ```command
-  ebook-convert worm.html worm.mobi --authors "John McCrae" --title "Worm" --max-toc-links 500
+  chmod +x make_ebook.sh
+  ./make_ebook.sh -a
   ```
