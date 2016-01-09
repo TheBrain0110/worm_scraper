@@ -13,13 +13,13 @@ Download the ebook or run the scraper yourself.
 ##How to run:
 
 1. Clone this project
-2. Install dependencies - Ruby, zlib, and the ruby gem nokogiri
+2. Install dependencies - Ruby and zlib
   
   ```command
   sudo apt-get install ruby-dev
   sudo apt-get install zlib1g-dev
   ```
-  In early versions, uri and open-uri were required gems, but they appear to be a part of ruby now. 
+  In early versions, uri and open-uri were required gems, but they appear to have been rolled into the Ruby build now. 
   ```command
   gem install nokogiri
   ```
