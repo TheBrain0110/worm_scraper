@@ -15,9 +15,10 @@ Download the ebook or run the scraper yourself.
 1. Clone this project
 2. Install dependencies
 
+Be sure to have a developer build of ruby, as well as zlib to handle library dependencies. In early versions, uri and open-uri were required gems, but they appear to be a part of ruby now. 
 ```command
-gem install uri
-gem install open-uri
+sudo apt-get install ruby-dev
+sudo apt-get install zlib1g-dev
 gem install nokogiri
 ```
 
