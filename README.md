@@ -22,13 +22,11 @@ Be sure to have a developer build of ruby, as well as zlib to handle library dep
 ```command
 gem install nokogiri
 ```
-
 3. Run the script and output into html file
 
 ```command
 ruby worm_scraper.rb > worm.html
 ```
-
 4. Convert (requires Calibre CLI)
 
 ```command
