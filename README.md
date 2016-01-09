@@ -1,6 +1,6 @@
-#Worm Web Serial Scraper for Kindle
+#Wildbow Web Serial Scraper for Kindle
 
-I couldn't find a good ebook/kindle version of worm, the fantastic web serial by wildbow (John McCrae), so I decided to make one. You can now enjoy worm without all of the eye strain! Until wildbow gets this thing published, this is the next best option.
+I couldn't find a good ebook/kindle version of worm, the fantastic web serial by wildbow (John McCrae), and subsequent works, so I decided to make one. You can now enjoy worm, pact, and twig without all of the eye strain! Until wildbow gets these things published, this is the next best option.
 
 [Please support the author!](https://parahumans.wordpress.com/support/)
 
