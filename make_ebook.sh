@@ -16,16 +16,20 @@ while getopts ":ahptw" opt; do
 		t) scrape "twig"
 		   exit
 		;;
+		g) scrape "glowworm"
+		   exit
+		;;
 		p) scrape "pact"
 		   exit
 		;;
-		a) scrape "worm"
+		a) scrape "glowworm"
+		   scrape "worm"
 		   scrape "pact"
 		   scrape "twig"
 		   exit
 		;;
 
-		h) echo "options are: -a for all, -h for help, -p for pact, -t for twig, -w for worm" 
+		h) echo "options are: -a for all, -h for help, -p for pact, -t for twig, -w for worm -g for glowworm/ward" 
 		exit 1
 		;;
 	esac

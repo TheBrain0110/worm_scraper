@@ -5,11 +5,12 @@ require 'nokogiri'
 require 'open-uri'
 require 'uri'
 
+@glowworm_url="https://www.parahumans.net/2017/10/21/glow-worm-0-1/"
 @pact_url="https://pactwebserial.wordpress.com/category/story/arc-1-bonds/1-01/"
 @twig_url="https://twigserial.wordpress.com/2014/12/24/taking-root-1-1/"
 @worm_url="https://parahumans.wordpress.com/2011/06/11/1-1/"
 
-story = { "pact" => @pact_url, "twig" => @twig_url, "worm" => @worm_url}
+story = { "pact" => @pact_url, "twig" => @twig_url, "worm" => @worm_url, "glowworm" => @glowworm_url}
 
 options = []
 OptionParser.new do |opts|
@@ -20,7 +21,7 @@ OptionParser.new do |opts|
   end
 
  opts.on("-a", "select all") do 
-    options = ["worm", "pact", "twig"]
+    options = ["worm", "pact", "twig", "glowworm"]
  end
 end.parse!
 
